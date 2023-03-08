@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
 .blue-color {
@@ -9,15 +10,17 @@ body {
 
 section {
     display: flex;
+    padding-bottom: 70px;
 }
 
 .half-width {
     width: 50%;
     padding-left: 5%;
+
 }
 
 .half-width img {
-    width: 80%;
+    width: 90%;
 }
 
 .link-button {
@@ -30,4 +33,15 @@ section {
 
 
 }
+
+.top-banner {
+    background-image: url(web-developer-portfolio-master/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(web-developer-portfolio-master/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
